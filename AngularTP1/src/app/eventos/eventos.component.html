@@ -1,0 +1,21 @@
+<h4 class="text-primary">Agenda de Recitales</h4>
+<table class="table table-striped table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Nombre</th>
+      <th scope="col">Lugar</th>
+      <th scope="col">Fecha</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let evento of eventos">
+      <td>{{ evento.nombre }}</td>
+      <td>{{ evento.lugar }}</td>
+      <td>{{ evento.fecha | date}}</td>
+    </tr>
+  </tbody>
+</table>
+<fieldset title="Formulario">
+  <legend>Evento</legend>
+<app-registrar-evento-component></app-registrar-evento-component>
+</fieldset>
