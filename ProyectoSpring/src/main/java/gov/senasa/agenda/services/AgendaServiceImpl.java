@@ -3,14 +3,14 @@ package gov.senasa.agenda.services;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import gov.senasa.agenda.database.dao.AddressDAO;
 import gov.senasa.agenda.database.dao.PersonDAO;
 import gov.senasa.agenda.modelo.Address;
 import gov.senasa.agenda.modelo.Person;
 
-@Component
+@Service
 public class AgendaServiceImpl implements AgendaService {
 
 	private PersonDAO personDAO;
