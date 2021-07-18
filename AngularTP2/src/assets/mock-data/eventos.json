@@ -1,0 +1,40 @@
+{
+  "eventos": [
+    {
+      "id": 1,
+      "nombre": "Cosquín Rock 2019",
+      "lugar": "Aeroclub Santa María de Punilla",
+      "fecha": "02-10-2022"
+    },
+    {
+      "id": 2,
+      "nombre": "Arctic Monkeys en Argentina",
+      "lugar": "Hipódromo de San Isidro",
+      "fecha": "03-30-2022"
+    },
+    {
+      "id": 3,
+      "nombre": "Lollapalooza Argentina",
+      "lugar": "Hipódromo de San Isidro",
+      "fecha": "04-05-2022"
+    },
+    {
+      "id": 4,
+      "nombre": "Iron Maiden en Argentina",
+      "lugar": "Estadio Vélez Sársfield",
+      "fecha": "10-12-2022"
+    },
+    {
+      "nombre": "Postman",
+      "lugar": "Local",
+      "fecha": "10-09-2021",
+      "id": 5
+    },
+    {
+      "nombre": "Luna",
+      "lugar": "Un lugar",
+      "fecha": "2021-07-16",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<button type="button" class="btn" (click)="cambiarMostrarForm()">Mostrar</button>
+
+<form (ngSubmit)="onSubmit()" #eventForm="ngForm" *ngIf="mostrarForm">
+  {{diagnostic}}
+  <div class="form-group">
+    <label for="nombre">Nombre:</label>
+    <input type="text" class="form-control" id="nombre" required [(ngModel)]="modelEvent.nombre" name="nombre" />
+    <label for="lugar">Lugar:</label>
+    <input type="text" class="form-control" id="lugar" required [(ngModel)]="modelEvent.lugar" name="lugar" />
+    <label for="fecha">Fecha:</label>
+    <input type="date" class="form-control" id="fecha" required [(ngModel)]="modelEvent.fecha" name="fecha" />
+  </div>
+  <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
